@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John von Neumann</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>John von Neumann</h1>
+    <nav>
+        <a href="#bio">Biografia</a>
+        <a href="#arquitetura">Arquitetura</a>
+        <a href="#legado">Legado</a>
+        <a href="#curiosidades">Curiosidades</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>O Gênio por trás dos Computadores Modernos</h2>
+    <button onclick="scrollToSection('bio')">Explorar</button>
+</section>
+
+<main>
+
+<section id="bio">
+    <h2>Biografia</h2>
+    <p>
+        John von Neumann foi um matemático e cientista da computação nascido em 1903.
+        Ele contribuiu para diversas áreas como teoria dos jogos, computação e física.
+    </p>
+</section>
+
+<section id="arquitetura">
+    <h2>Arquitetura de Von Neumann</h2>
+    <p>
+        Ele criou o conceito de armazenar dados e programas na mesma memória,
+        base dos computadores atuais.
+    </p>
+</section>
+
+<section id="legado">
+    <h2>Contribuições</h2>
+    <ul>
+        <li>Teoria dos Jogos</li>
+        <li>Projeto Manhattan</li>
+        <li>ENIAC e EDVAC</li>
+    </ul>
+</section>
+
+<section id="curiosidades">
+    <h2>Curiosidades</h2>
+    <p>Ele conseguia memorizar listas telefônicas quando criança 🤯</p>
+    <button onclick="mostrarCuriosidade()">Ver outra curiosidade</button>
+    <p id="extra"></p>
+</section>
+
+</main>
+
+<footer>
+    <p>Projeto escolar • Desenvolvido por você 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
